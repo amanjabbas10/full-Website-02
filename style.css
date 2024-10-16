@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    scroll-behavior: smooth;
+}
+
+.nav1 img{
+    max-width: 150px;
+}
+
+.nav1{
+    padding: 10px;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav1 a{
+    transition: all 0.3s ease 0s;
+    color: #23242a;
+    text-decoration: none;
+}
+
+.nav1 a:hover{
+    color: #48189f;
+}
+.nav1 i{
+    transition: all 0.3s ease 0s;
+    color: #23242a;
+    font-size: 17px;
+}
+.nav1 i:hover{
+    color:#48189f;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image:  url(./images/b1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15rem;
+}
+
+
+.content h1{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 500;
+}
+.content p{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+.btn0{
+    font-size: 18px;
+    padding: 8px;
+    margin-left: 35rem;
+    border-radius: 10px;
+    border: none;
+    background: white;
+    transition: all 0.3s ease 0s;
+}
+.btn0:hover{
+    transform: scale(0.95);
+    color: #ffff;
+    background: #48189f;
+}
+.h1{
+    text-align: center;
+    margin-top: 5%;
+    color: #505050;
+}
+
+.card{
+    margin-top: 5%;
+    margin-left: 40px;
+    border: none;
+}
+
+.card i{
+    margin-top: 4rem;
+    margin-left: 5rem;
+    font-size: 3rem;
+}
+
+.card-body h5{
+font-weight: 600;
+}
+
+.card-body p{
+    text-align: center;
+}
+
+.h2{
+margin-top: 6%;
+    text-align: center;
+    font-size: 40px;
+    color: #505050;
+}
+.amanj{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    padding: 0 30px;
+    display: flex;
+}
+.amanj img{
+    margin-top: 1%;
+    max-width: 650px;
+}
+
+.amanj .amanj1 .amanj2 h5{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.amanj .amanj1 .amanj2 p{
+    text-align:center;
+}
+.btn2{
+border: none;
+border: 1px solid #23242a;
+background: white;
+margin: 15px;
+padding:  10px;
+border-radius: 10px;
+transition: all 0.3s ease 0s;
+}
+
+.btn2:hover{
+    background: #2081c9;
+    color: white;
+    border: none;
+    transform: scale(0.95);
+}
+
+
+.btn12{
+    border: none;
+    border: 1px solid #23242a;
+    background: white;
+    border-radius: 10px;
+    width: 10rem;
+    padding: 5px;
+    margin-left: 15%;
+    margin-top: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.btn12:hover{
+    transform: scale(0.95);
+    background: #095084;
+    color: white;
+    border: none;
+}
+
+.h23{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.div21 img {
+    max-width: 190px;
+    margin: 10px;
+    margin-left: 2.7rem;
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.div21 img:hover{
+    transform: scale(0.95);
+}
+
+footer{
+    margin-top: 11rem;
+    color: #f1f1f1;
+    padding: 40px;
+    background: #23242a;
+    border-radius: 24px 24px 0 0;
+}
+
+footer a{
+    margin: 4%;
+    text-decoration: none;
+    color: #505050;
+    transition: all 0.3s ease 0s;
+}
+footer a:hover{
+    color: white;
+}
+
+footer i{
+    font-size: 17px;
+    color: #505050;
+    transition: all 0.3s ease 0s;
+    margin: 1%;
+}
+footer i:hover{
+    color: #f0f0f0;
+}
